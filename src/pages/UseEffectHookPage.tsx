@@ -65,8 +65,7 @@ function UseEffectHookPage() {
 				defaultValue={plate}
 				onChange={(e: any) => {
 					setPlate(Number(e.target.value));
-				}}
-			>
+				}}>
 				<option disabled={true} value={-1}>
 					Seçim Yapınız
 				</option>

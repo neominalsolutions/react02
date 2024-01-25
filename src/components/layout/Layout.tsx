@@ -61,6 +61,15 @@ function Layout() {
 							</Link>
 						</Button>
 
+						<Button variant="text">
+							<Link
+								style={{ textDecoration: 'none', color: 'whitesmoke' }}
+								to="/forms"
+							>
+								Forms Demo
+							</Link>
+						</Button>
+
 						{/* <a href="/demo">Demo Href</a> */}
 					</Typography>
 					<Button color="inherit">Login</Button>

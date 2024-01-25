@@ -5,6 +5,7 @@ import ContactPage from './pages/ContactPage';
 import DemoPage from './pages/DemoPage';
 import UseEffectHookPage from './pages/UseEffectHookPage';
 import UseEffectHookPageAsync from './pages/UseEffectHookPageAsync';
+import FormsPage from './pages/FormsPage';
 
 function App() {
 	const routes = useRoutes([
@@ -31,6 +32,10 @@ function App() {
 				{
 					path: 'useEffectDemoAsync',
 					Component: UseEffectHookPageAsync,
+				},
+				{
+					path: 'forms',
+					Component: FormsPage,
 				},
 				{
 					path: '*', // link bulunamadıysa bütün pathlerin en sonuna * koyalım.
